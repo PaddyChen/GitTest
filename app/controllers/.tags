@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ApplicationController	application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ProductsController	products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
+create	products_controller.rb	/^  def create$/;"	f	class:ProductsController
+destroy	products_controller.rb	/^  def destroy$/;"	f	class:ProductsController
+edit	products_controller.rb	/^  def edit$/;"	f	class:ProductsController
+index	products_controller.rb	/^  def index$/;"	f	class:ProductsController
+new	products_controller.rb	/^  def new$/;"	f	class:ProductsController
+product_params	products_controller.rb	/^    def product_params$/;"	f	class:ProductsController
+set_product	products_controller.rb	/^    def set_product$/;"	f	class:ProductsController
+show	products_controller.rb	/^  def show$/;"	f	class:ProductsController
+update	products_controller.rb	/^  def update$/;"	f	class:ProductsController

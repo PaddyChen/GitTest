@@ -1,0 +1,7 @@
+<div>
+    <% @cart.items.each do |item| %>
+      <span><%= item.title %></span> 
+      X<span><%= item.quantity %> </span> 
+      <span><%= number_to_currency(item.price,unit: '￥') %> </span>
+    <% end -%>
+</div>
