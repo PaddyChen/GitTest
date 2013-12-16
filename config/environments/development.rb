@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 SampleApp::Application.configure do
+=======
+Depot::Application.configure do
+>>>>>>> d21c5c2be118af4930b611b46ab9c7ac41298397
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

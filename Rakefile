@@ -3,4 +3,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+<<<<<<< HEAD
 SampleApp::Application.load_tasks
+=======
+Depot::Application.load_tasks
+>>>>>>> d21c5c2be118af4930b611b46ab9c7ac41298397

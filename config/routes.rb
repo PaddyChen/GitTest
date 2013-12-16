@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 SampleApp::Application.routes.draw do
   root "static_pages#home"
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
+=======
+Depot::Application.routes.draw do
+  get "user_blog/index"
+  post 'store/add_to_cart'
+  resources :products
+
+>>>>>>> d21c5c2be118af4930b611b46ab9c7ac41298397
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -43,7 +51,11 @@ SampleApp::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d21c5c2be118af4930b611b46ab9c7ac41298397
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

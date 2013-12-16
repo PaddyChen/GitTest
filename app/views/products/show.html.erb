@@ -1,0 +1,27 @@
+
+<div style="border:1px solid #cccccc">
+  <% render(:partical=> 'cart', :object => @cart) %>
+</div>
+
+<p>
+  <strong>Title:</strong>
+  <%= @product.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+<p>
+  <strong>Price:</strong>
+  <%= number_to_currency(@product.price,:precision=>2,:unit=>'￥',:separator=>'.') %>
+</p>
+
+<p>
+  <strong>Img url:</strong>
+  <%= @product.img_url %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
+<%= button_to 'Add to Cart',action: 'add_to_cart',controller: 'store',id: @product.id %>

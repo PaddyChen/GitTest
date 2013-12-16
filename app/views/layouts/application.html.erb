@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
   <title>Ruby on Rails Tutorial Sample App |
     <%= yield(:title) %></title>
   <%= stylesheet_link_tag "application", media: "all" %>
@@ -15,3 +16,17 @@
   </div>
 
 </html>
+=======
+  <title>Depot</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "scaffold" %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
+>>>>>>> d21c5c2be118af4930b611b46ab9c7ac41298397
